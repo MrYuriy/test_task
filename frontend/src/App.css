@@ -1,0 +1,80 @@
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.header {
+  height: 56px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 310px;
+  height: calc(100% - 56px);
+  width: 100%;
+}
+
+.side {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#mapId {
+  width: 100%;
+  height: 100%;
+}
+
+.card_price {
+  height: 23px;
+  margin-top: 244px;
+  margin-left: -16px;
+  width: 70%;
+  background-color: #2c353a;
+  border-radius: 0px 10px 0px 0px;
+  opacity: 0.9;
+  color: aliceblue;
+  text-indent: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.circle_marker:hover {
+  fill: #f59440;
+}
+
+
+.ap_card {
+  margin-top: 10px;
+  width: 285px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn_to_rent {
+  margin-right: 30px;
+  background-color: #f59440;
+  border-color: #f59440;
+  border-radius: 150px;
+}
+
+.btn_to_rent_text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+@media(max-width: 900px){
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  #mapId {
+    height: 60vh !important;
+  }
+  .side {
+    padding-top: 10px;
+    height: 500px !important;
+  }
+}
