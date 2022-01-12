@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-a4f%)eigr#0@9+g_=yu%g15l3w65frt0^1+wu3&d@i(dugv)r#
 DEBUG = True
 SITE_ID = 1
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://internship-test-t.herokuapp.com']
 
 
 # Application definition
@@ -58,9 +58,6 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-]
 
 ROOT_URLCONF = 'test_job.urls'
 

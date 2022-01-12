@@ -18,7 +18,7 @@ function AddNewApartment() {
   const handleShow = () => setShow(true);
 
   const handleSubmit = () => {
-    const url = "http://127.0.0.1:8000/api/aparts/";
+    const url = "https://internship-test-t.herokuapp.com/api/aparts/";
     var csrftoken = getCookie("csrftoken");
 
     let form_data = new FormData();

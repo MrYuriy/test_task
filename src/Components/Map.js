@@ -30,7 +30,7 @@ function Map() {
     }
 
     async function fetchFromApi() {
-      let response = await fetch("http://127.0.0.1:8000/api/aparts/");
+      let response = await fetch("https://internship-test-t.herokuapp.com/api/aparts/");
       response = await response.json();
       fetchAllApartsFromAPI(response);
     }
