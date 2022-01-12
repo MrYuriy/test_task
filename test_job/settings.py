@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-a4f%)eigr#0@9+g_=yu%g15l3w65frt0^1+wu3&d@i(dugv)r#
 DEBUG = False
 SITE_ID = 1
 
-ALLOWED_HOSTS = ['https://internship-test-t.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
