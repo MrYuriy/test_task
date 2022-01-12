@@ -13,7 +13,8 @@ router.register(r'aparts', views.ApartmentsView, 'aparts')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path("", views.index, name="index")
 ]
 
 if settings.DEBUG:
